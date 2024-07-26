@@ -5,12 +5,12 @@ public class caixaEletronico{
      * @param args
      */
     public static void main (String[]args){
-        double saldo = 25.0;
+        double saldo = 475.0;
         double valorSolicitar = 17.0;
 
         if (valorSolicitar < saldo) {
             saldo = saldo - valorSolicitar;
-            System.out.println(saldo);
+            System.out.println( saldo );
         }
 
     }
